@@ -17,7 +17,7 @@ class A{
     int getState(){
         return this->bInstance.getState();
     }
-    void setState(int newValue){ this->_bInstance.setState(newValue);}
+    void setState(int newValue){ this->bInstance.setState(newValue);}
 };
 int main() {
     // Write C++ code here
